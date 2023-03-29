@@ -1,0 +1,140 @@
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #40514E;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 90px;
+    margin-top: 0px;
+    margin: 0 auto;
+    font-family: "Sacramento", cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999E;
+    font-size: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    left : 300px;
+    bottom: 300px;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.btn{
+
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: solid #0066cc 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 922ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 78px;
+    margin: auto;
+
+}
+
+.btn:hover{
+
+    transition : 922ms;
+    padding: 10px 38px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+.pro {
+    font-style: italic;
+    font-weight: bolder;
+    font-style: underline;
+}
+.programmer {
+    font-size: 20px;
+    font-family: fantasy;
+}
+a {
+    color: #11999E;
+    margin: 10px 20px;
+
+}
+
+a:hover {
+    color: #eaf6f6
+}
+
+
+
+
+.skill-row {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.swim-img {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+p {
+    font-family: "Montserrat";
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #eaf6f6;
+}
